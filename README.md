@@ -12,3 +12,7 @@
 `zustand`
 
 `husky`
+
+# 참고 자료
+
+[포스팅 바로가기](https://velog.io/@xmun74/Next.js-TS에서-ESLint-Prettier-설정하기)
