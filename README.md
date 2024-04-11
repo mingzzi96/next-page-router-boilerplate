@@ -10,3 +10,5 @@
 `Prettier`
 
 `zustand`
+
+`husky`
