@@ -1,4 +1,8 @@
 export const theme = {
+  deviceSize: {
+    mobile: 'screen and (max-width: 768px)',
+    tablet: 'screen and (max-width: 1025px)',
+  },
   color: {
     black_000000: '#000000',
     black_171717: '#171717',
