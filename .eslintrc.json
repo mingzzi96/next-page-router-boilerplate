@@ -19,16 +19,31 @@
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "prettier"
+    "prettier",
+    "plugin:storybook/recommended",
+    "plugin:storybook/recommended"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": 0,
     "@typescript-eslint/semi": "off",
-    "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [".ts", ".tsx"]
+      }
+    ],
     "no-useless-catch": "off",
     "react/function-component-definition": "off",
     "import/prefer-default-export": "off",
+    "react/require-default-props": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/*.stories.*", "**/.storybook/**/*.*"],
+        "peerDependencies": true
+      }
+    ],
     "import/order": [
       "error",
       {
