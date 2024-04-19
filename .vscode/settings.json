@@ -1,0 +1,18 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+    // "source.fixAll.eslint": "always",
+    // "source.fixAll.stylelint": "always",
+  },
+  "stylelint.validate": ["css", "postcss", "typescriptreact", "typescript"],
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "css.customData": ["./.vscode/custom-css.json"],
+  "material-icon-theme.files.associations": {
+    "tsconfig.path.json": "Tsconfig"
+  }
+}
